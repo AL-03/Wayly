@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "washrooms",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "name": "Mary Brown's Washroom", "women": true, "men": true, "unisex": true, "wheelchair": false, "baby_change": true, "source": "Manual", "notes": "Washrooms are clean, easily accessible, no stairs, frequent potholes in area." }, "geometry": { "type": "Point", "coordinates": [ -79.248740412064024, 43.736886340577549 ] } },
+{ "type": "Feature", "properties": { "fid": 2, "name": "Rexall Washroom", "women": false, "men": false, "unisex": true, "wheelchair": false, "baby_change": true, "source": "Manual", "notes": "Frequently OUT OF ORDER, employee only washroom, store entrance at an incline." }, "geometry": { "type": "Point", "coordinates": [ -79.249489125594351, 43.737408171219904 ] } },
+{ "type": "Feature", "properties": { "fid": 3, "name": "No Frills Washroom", "women": true, "men": true, "unisex": true, "wheelchair": true, "baby_change": true, "source": "Manual", "notes": "On the main floor, no stairs, frequently clean, moving vehicles present." }, "geometry": { "type": "Point", "coordinates": [ -79.246528303906203, 43.737861936995863 ] } },
+{ "type": "Feature", "properties": { "fid": 4, "name": "Shoppers' Washroom", "women": true, "men": true, "unisex": true, "wheelchair": true, "baby_change": true, "source": "Manual", "notes": "At the back of the store, no stairs, moving vehicles present." }, "geometry": { "type": "Point", "coordinates": [ -79.247587090716792, 43.736515765193843 ] } },
+{ "type": "Feature", "properties": { "fid": 5, "name": "Ghareeb Nawaz Restaruant Washrooms", "women": true, "men": true, "unisex": false, "wheelchair": false, "baby_change": false, "source": "Manual", "notes": "Not Accessible, has a flight of stairs to washroom" }, "geometry": { "type": "Point", "coordinates": [ -79.246748976694377, 43.735333356572426 ] } }
+]
+}
